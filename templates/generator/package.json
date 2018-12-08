@@ -1,0 +1,31 @@
+{
+  "name": "<% name %>",
+  "author": "Doug Wade <douglas.b.wade@gmail.com>",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Generator for projects.",
+  "dependencies": {
+    "@generator/library": "^0.1.0",
+    "inquirer": "^5.2.0"
+  },
+  "scripts": {
+    "clean": "rm -rf generated-example-project",
+    "generate": "npx . --name generated-example-project --clobber",
+    "lint": "eslint index.js templates --cache --quiet",
+    "lint-fix": "eslint index.js templates --fix",
+    "lint-warn": "eslint index.js templates --cache",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-react": "^6.10.3",
+    "jest": "^22.4.3"
+  },
+  "bin": "node_modules/@generator/library/bin/index.js",
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">=5.5.1"
+  }
+}
