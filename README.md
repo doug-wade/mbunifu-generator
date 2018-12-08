@@ -1,13 +1,13 @@
-# generator-generator
+# @generator/generator
 
-`generator-generator` is a tool for scaffolding new projects.
+`@generator/generator` is a tool for scaffolding new projects.
 
 ## Usage
 
 ### From the command line
 
 ```sh
-npx generator-generator --name my-generator
+npx @generator/generator --name my-generator
 ```
 
 ### Programmatically
