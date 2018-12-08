@@ -1,4 +1,4 @@
-const { Generator } = require('@generator/generator-library');
+const { Generator } = require('@mbunifu/generator-library');
 
 module.exports = class GeneratorGenerator extends Generator {
   constructor(options) {
