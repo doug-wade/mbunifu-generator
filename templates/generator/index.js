@@ -1,4 +1,4 @@
-const { Generator } = require('@generator/library');
+const { Generator } = require('@mbunifu/library');
 
 module.exports = class <% pascalCaseName %>Generator extends Generator {
     constructor(options) {

@@ -1,19 +1,19 @@
-# @generator/generator
+# @mbunifu/generator
 
-`@generator/generator` is a tool for scaffolding new projects.
+`@mbunifu/generator` is a tool for scaffolding new projects.
 
 ## Usage
 
 ### From the command line
 
 ```sh
-npx @generator/generator --name my-generator
+npx @mbunifu/generator --name my-generator
 ```
 
 ### Programmatically
 
 ```js
-const GeneratorGenerator = require('@generator/generator');
+const GeneratorGenerator = require('@mbunifu/generator');
 
 (new GeneratorGenerator({ name: 'my-generator' })).run({
     dryRun: true,

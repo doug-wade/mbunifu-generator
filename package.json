@@ -1,11 +1,11 @@
 {
-  "name": "@generator/generator",
+  "name": "@mbunifu/generator",
   "author": "Doug Wade <douglas.b.wade@gmail.com>",
   "license": "MIT",
   "version": "0.1.1",
   "description": "Generator for project generators. Meta!",
   "dependencies": {
-    "@generator/generator-library": "^0.1.1",
+    "@mbunifu/library": "^0.1.1",
     "inquirer": "^5.2.0"
   },
   "scripts": {
@@ -22,7 +22,7 @@
     "eslint-plugin-no-loops": "^0.3.0",
     "jest": "^22.4.3"
   },
-  "bin": "node_modules/@generator/library/bin/index.js",
+  "bin": "node_modules/@mbunifu/library/bin/index.js",
   "engines": {
     "node": ">=8.9",
     "npm": ">=5.5.1"
