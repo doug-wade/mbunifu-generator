@@ -1,0 +1,30 @@
+{
+  "name": "@generator/generator",
+  "author": "Doug Wade <douglas.b.wade@gmail.com>",
+  "license": "MIT",
+  "version": "0.1.1",
+  "description": "Generator for project generators. Meta!",
+  "dependencies": {
+    "@generator/generator-library": "^0.1.1",
+    "inquirer": "^5.2.0"
+  },
+  "scripts": {
+    "clean": "rm -rf sandbox",
+    "generate": "npx . --clobber --name=sandbox --debug",
+    "lint": "eslint templates index.js --cache --quiet",
+    "lint-fix": "eslint templates index.js --fix",
+    "lint-warn": "eslint templates index.js --cache",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "jest": "^22.4.3"
+  },
+  "bin": "node_modules/@generator/library/bin/index.js",
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">=5.5.1"
+  }
+}
