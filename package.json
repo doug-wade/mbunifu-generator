@@ -2,7 +2,7 @@
   "name": "@mbunifu/generator",
   "author": "Doug Wade <douglas.b.wade@gmail.com>",
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.0.1",
   "description": "Generator for project generators. Meta!",
   "dependencies": {
     "@mbunifu/library": "^0.1.1",
