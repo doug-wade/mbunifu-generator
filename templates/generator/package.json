@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "description": "Generator for projects.",
   "dependencies": {
-    "@generator/library": "^0.1.0",
+    "@mbunifu/library": "^0.1.0",
     "inquirer": "^5.2.0"
   },
   "scripts": {
@@ -23,7 +23,7 @@
     "eslint-plugin-react": "^6.10.3",
     "jest": "^22.4.3"
   },
-  "bin": "node_modules/@generator/library/bin/index.js",
+  "bin": "node_modules/@mbunifu/library/bin/index.js",
   "engines": {
     "node": ">=8.9",
     "npm": ">=5.5.1"
