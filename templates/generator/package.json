@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "description": "Generator for projects.",
   "dependencies": {
-    "@mbunifu/library": "^0.1.0",
+    "@mbunifu/library": "^0.0.1",
     "inquirer": "^5.2.0"
   },
   "scripts": {
