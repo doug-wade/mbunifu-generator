@@ -33,7 +33,7 @@ npm install --save @generator/<% name %>
 Then require it and run the `run` command
 
 ```js
-const <% pascalCaseName %> = require('@generator/my-generator');
+const <% pascalCaseName %> = require('@mbunifu/my-generator');
 
 const <% camelCaseName %> = new <% pascalCaseName %>();
 
@@ -43,7 +43,7 @@ const <% camelCaseName %> = new <% pascalCaseName %>();
 You can provide any of the accepted arguments as a named argument to the constructor.
 
 ```js
-const <% pascalCaseName %> = require('@generator/my-generator');
+const <% pascalCaseName %> = require('@mbunifu/my-generator');
 
 const <% camelCaseName %> = new <% pascalCaseName %>({
     dryRun: true,
@@ -64,6 +64,6 @@ The new project is now located at `./my-new-project`.
 
 # Find out more
 
-This generator is powered by `@generator/library`.  Find out more about how it works and
-how to make your own by reading its [README.md](https://github.com/doug-wade/generator-library)
-or its [annotate source code](https://github.com/doug-wade/generator-library).
+This generator is powered by `@mbunifu/library`.  Find out more about how it works and
+how to make your own by reading its [README.md](https://github.com/doug-wade/mbunifu-library)
+or its [annotate source code](https://github.com/doug-wade/mbunifu-library).
